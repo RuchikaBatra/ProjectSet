@@ -1,0 +1,8 @@
+
+
+case class employee(empid:Int,empName:String,empAdd:String)
+object Test1 {
+  def main(args:Array[String]){
+    val m1 = employee(1,"ABC","address1")
+  }
+}

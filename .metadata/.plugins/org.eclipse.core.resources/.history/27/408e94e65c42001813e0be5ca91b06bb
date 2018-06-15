@@ -1,0 +1,12 @@
+
+public class MonthUDF extends UDF {
+public int evaluate(Text value) {
+Calendar cal = Calendar.getInstance();
+if (value == null) {
+return 1;
+} else {
+cal.setTimeInMillis(Long.valueOf(value.toString()) * 1000);
+return cal.get(Calendar.MONTH) + 1;
+}
+}
+}

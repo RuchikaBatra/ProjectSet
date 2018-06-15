@@ -1,0 +1,19 @@
+abstract class MyAbstractFile{
+  def open(fileName:String):Unit
+  def save(fileName:String):Unit
+}
+
+class MyFile extends MyAbstractFile{
+  override def open(filename:String):Unit={
+    println("Myfile.open called")
+    
+  }
+override def save(filename:String):Unit={
+    println("Myfile.save called")
+    
+  }
+}
+
+object TestInheritance {
+  
+}

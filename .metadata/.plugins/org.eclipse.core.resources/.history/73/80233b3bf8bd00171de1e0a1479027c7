@@ -1,0 +1,15 @@
+
+
+class DemoClass(msg:String) {
+  println(msg)
+  def this()
+  {
+    this(st)
+  }
+}
+
+object MyDemo{
+  def main(args:Array[String]):Unit={
+    var m = new DemoClass("Object Created)
+  }
+}

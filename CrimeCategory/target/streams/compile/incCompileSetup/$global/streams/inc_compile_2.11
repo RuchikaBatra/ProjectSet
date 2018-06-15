@@ -1,0 +1,355 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+10 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$1.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$2.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$3.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator1$1.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator2$1.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$.class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization.class
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/DataReader.class
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/SparkSetup$.class
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/SparkSetup.class
+binary dependencies:
+15 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/src/DataReader.scala
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> /home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> /home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+10 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$$anonfun$1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$$anonfun$2
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$$anonfun$3
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$$typecreator1$1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization$$typecreator2$1
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DataReader
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> SparkSetup
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> SparkSetup$
+used names:
+213 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $conforms
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $m
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $m$untyped
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $typecreator1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $typecreator2
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> $u
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> <:<
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> <init>
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> <repeated>
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ?0
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> A
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Any
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> AnyRef
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Array
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ArrayOps
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Class
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ClassLoader
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ClassSymbol
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ClassTag
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> CrimeCategorization
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> DataFrame
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> DataFrameWriter
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> DataReader
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Dataset
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Double
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Encoder
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Function1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> HashingTF
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Int
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Internal
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Iterable
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> JavaUniverse
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> LabeledPoint
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Level
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> List
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Logger
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> LogisticRegressionModel
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> LogisticRegressionWithLBFGS
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Long
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Map
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Mirror
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ModuleSymbol
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Nothing
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Object
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Option
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Predef
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Product
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> RDD
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ReificationSupportApi
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Row
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Singleton
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> SparkSession
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> SparkSetup
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> StandardScaler
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> String
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> StringOps
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Symbol
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> T
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> T0
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> T1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> T2
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> ThisType
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Tuple2
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Type
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> TypeCreator
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> TypeRef
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> TypeSymbol
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> TypeTag
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> U
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Unit
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Universe
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> Vector
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> _$1
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> _$7
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> apache
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> apply
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> args
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> asInstanceOf
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> asModule
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> asType
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> augmentString
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> catMap
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> cat_count
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> cat_mod
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> categories
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> classification
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> collection
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> count
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> createOrReplaceTempView
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> csv
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> dataReader
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> evaluation
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> feature
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> get
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> getClass
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> getClassLoader
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> htf
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> immutable
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> implicits
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> internal
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> length
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> linalg
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> log4j
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> map
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> materializeClassTag
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> materializeTypeTag
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> mllib
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> model
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> moduleClass
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> newProductEncoder
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> optimization
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> org
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> out
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> package
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> predict
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> prediction
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> rdd
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> readTestData
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> readTrainingData
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> refArrayOps
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> reflect
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> regression
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> reificationSupport
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> run
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> runtime
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> runtimeMirror
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> scala
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> setNumClasses
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> sort
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> sp
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> spark
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> sql
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> staticClass
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> staticPackage
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> substring
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> take
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> test
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> toDouble
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> toInt
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> toMap
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> toString
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> toTypeConstructor
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> train
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> trainingData
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> transform
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> types
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> universe
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> util
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> write
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> x
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> <init>
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> <repeated>
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> A
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Any
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> AnyRef
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Boolean
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DataFrame
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DataFrameReader
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DataReader
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DataType
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> DoubleType
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Encoders
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> List
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Metadata
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Nothing
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Object
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Predef
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> Seq
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> SparkSession
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> SparkSetup
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> String
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> StringType
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> StructField
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> StructType
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> apache
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> apply
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> crimeSchema
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> crimetestSchema
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> format
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> immutable
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> implicits
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> load
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> option
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> org
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> package
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> path
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> read
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> scala
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> schema
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> sp
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> spark
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> sql
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> testDF
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> trainDF
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> types
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> <init>
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> AnyRef
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> Builder
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> Object
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> Predef
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> SparkSession
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> SparkSetup
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> String
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> Unit
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> apache
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> appName
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> builder
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> getOrCreate
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> org
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> scala
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> spark
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> spark_=
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> sql
+product stamps:
+10 items
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$1.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$2.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$3.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator1$1.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator2$1.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization.class -> lastModified(1504850936000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/DataReader.class -> lastModified(1504852256000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/SparkSetup$.class -> lastModified(1504850937000)
+/home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/SparkSetup.class -> lastModified(1504850937000)
+source stamps:
+3 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> hash(f3c407c0697f2c1b3e564b1b98a4a6da73529104)
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> hash(91b2cc264a760600a1dfbb23700290216b557bf8)
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> hash(860faf9c89226d35ea3432e2ca94494602e5d6c9)
+binary stamps:
+8 items
+/home/cloudera/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar -> lastModified(1493167686000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar -> lastModified(1493167440000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar -> lastModified(1493167914000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> lastModified(1493167860000)
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> lastModified(1409687212000)
+class names:
+8 items
+/home/cloudera/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Logger
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar -> org.apache.spark.sql.types.DataType
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar -> org.apache.spark.rdd.RDD
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar -> org.apache.spark.mllib.regression.GeneralizedLinearModel
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> org.apache.spark.sql.DataFrameReader
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.package$
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw31imMgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw5ykGPnQABm5vdGlmeXNxAH4ADOXZQWl0AAR3YWl0c3EAfgAMvBQ9rHQADSRhc0luc3RhbmNlT2ZzcQB+AAwpW/gNdAAGZXF1YWxzc3EAfgAME7mfQXQADGFzSW5zdGFuY2VPZnNxAH4ADLvLjBl0AAxzeW5jaHJvbml6ZWRzcQB+AAzFlfAJdAANJGlzSW5zdGFuY2VPZnNxAH4ADBwV5c50AARtYWluc3EAfgAMnuzVEHQACW5vdGlmeUFsbHNxAH4ADKQ1SMN0AAxpc0luc3RhbmNlT2ZzcQB+AAzZISppdAATQ3JpbWVDYXRlZ29yaXphdGlvbnNxAH4ADOoxNcB0AAI9PXNxAH4ADBnEPJx0AAVjbG9uZXNxAH4ADBqAuuB0AAh0b1N0cmluZ3NxAH4ADEIPkiV0AAIhPXNxAH4ADG2EdSB0AAhnZXRDbGFzc3NxAH4ADFXMVjl0AAJuZXNxAH4ADOa40dN0AAJlcXNxAH4ADE2iu6h0AAIjI3NxAH4ADJuNdvV0AAhmaW5hbGl6ZXNxAH4ADE2xt+V0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AI3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF1zcQB+AFh1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AFxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHh1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBleHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBsWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBcc3EAfgBrdAAFQXJyYXlxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBrdAAGU3RyaW5nc3EAfgBvc3EAfgBydXEAfgB1AAAAA3NxAH4Ad3QABGphdmFzcQB+AHd0AARsYW5ncQB+AHxzcQB+AFh1cQB+ADwAAAAAc3EAfgBYdXEAfgCQAAAAAnNxAH4Aa3QABk9iamVjdHEAfgCUc3EAfgBrdAADQW55cQB+AHF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXmAamzV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABAL2hvbWUvY2xvdWRlcmEvd29ya3NwYWNlL0NyaW1lQ2F0ZWdvcnkvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPPEB8BpfywbPlZLG5ikptpzUpEE
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwTXqxWQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZXKsUnQABm5vdGlmeXNxAH4ADMX8TgB0AApEYXRhUmVhZGVyc3EAfgAMEecEGHQABHdhaXRzcQB+AAy/bpQWdAAMcmVhZFRlc3REYXRhc3EAfgAMyAYjIHQADSRhc0luc3RhbmNlT2ZzcQB+AAwE+DdmdAAGZXF1YWxzc3EAfgAM60SB3XQADGFzSW5zdGFuY2VPZnNxAH4ADOTdRc90AAxzeW5jaHJvbml6ZWRzcQB+AAyvY2xqdAAQcmVhZFRyYWluaW5nRGF0YXNxAH4ADLs/7Vx0AA0kaXNJbnN0YW5jZU9mc3EAfgAMss/Ds3QACW5vdGlmeUFsbHNxAH4ADMpSyVR0AAxpc0luc3RhbmNlT2ZzcQB+AAyRqd07dAAGPGluaXQ+c3EAfgAM1/Xpx3QAAj09c3EAfgAMsh3lkXQABWNsb25lc3EAfgAMFz2Qd3QACHRvU3RyaW5nc3EAfgAMJaW7lXQAAiE9c3EAfgAM0lHXv3QACGdldENsYXNzc3EAfgAM5oTlOXQAAnNwc3EAfgAM4lnzbnQAAm5lc3EAfgAMbLxwH3QAAmVxc3EAfgAMxkdlKnQAAiMjc3EAfgAMMqRrG3QACGZpbmFsaXplc3EAfgAMjiMOiXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgARdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBjc3EAfgBedXEAfgBCAAAAAHNxAH4AXnVxAH4AQgAAAABzcQB+AF51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHt0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHxzcQB+AG90AANBbnlzcQB+AHNzcQB+AHZ1cQB+AHkAAAACc3EAfgB7dAAFc2NhbGFxAH4AgnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeYC7qF3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEAvaG9tZS9jbG91ZGVyYS93b3Jrc3BhY2UvQ3JpbWVDYXRlZ29yeS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUkbLMJkp2BgCh37sjcAKQIWtVe/g=
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwZLLFDAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwa1C9jXQABm5vdGlmeXNxAH4ADADVkph0AAR3YWl0c3EAfgAMABugAXQADSRhc0luc3RhbmNlT2ZzcQB+AAz0e62UdAAGZXF1YWxzc3EAfgAMZ2Qhu3QADGFzSW5zdGFuY2VPZnNxAH4ADOJSfop0AAxzeW5jaHJvbml6ZWRzcQB+AAyIBI2KdAANJGlzSW5zdGFuY2VPZnNxAH4ADIEgGn10AAlub3RpZnlBbGxzcQB+AAxEYKkJdAAKaW5pdGlhbGl6ZXNxAH4ADKkDoQZ0AAxpc0luc3RhbmNlT2ZzcQB+AAzTIKZAdAAFc3BhcmtzcQB+AAyN33r1dAACPT1zcQB+AAx9JVLLdAAFY2xvbmVzcQB+AAwRYPM4dAAIdG9TdHJpbmdzcQB+AAyt8hPcdAACIT1zcQB+AAy2HDS3dAAIZ2V0Q2xhc3NzcQB+AAzSKz0GdAACbmVzcQB+AAzhxe3TdAAKU3BhcmtTZXR1cHNxAH4ADFoSmfl0AAJlcXNxAH4ADFEkabh0AAIjI3NxAH4ADPIm2YF0AAhmaW5hbGl6ZXNxAH4ADEtRmxh0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AMXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AF9zcQB+AFp1cQB+AD4AAAAAc3EAfgBadXEAfgA+AAAAAHNxAH4AWnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ad3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHNxAH4Aa3QAA0FueXNxAH4Ab3NxAH4AcnVxAH4AdQAAAAJzcQB+AHd0AAVzY2FsYXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV5gGps1dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQC9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9DcmltZUNhdGVnb3J5L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSGD6+ciSJtNeo0MuLKlElGAuXWyQ==
+external apis:
+0 items
+source infos:
+3 items
+/home/cloudera/workspace/CrimeCategory/src/CrimeCategorization.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/CrimeCategory/src/DataReader.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/CrimeCategory/src/SparkSetup.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXiNYOYN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9DcmltZUNhdGVnb3J5L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXmAamzV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9DcmltZUNhdGVnb3J5L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXmAu6hd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9DcmltZUNhdGVnb3J5L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

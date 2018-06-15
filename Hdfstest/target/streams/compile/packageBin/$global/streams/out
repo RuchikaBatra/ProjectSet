@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/cloudera/workspace/Hdfstest/target/scala-2.11/hdfstest_2.11-1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Hdfstest$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/Hdfstest/target/scala-2.11/classes/Hdfstest$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	Hdfstest.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/Hdfstest/target/scala-2.11/classes/Hdfstest.class[0m
+[0m[[0mdebug[0m] [0m	Hdfstest$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/Hdfstest/target/scala-2.11/classes/Hdfstest$.class[0m
+[0m[[0mdebug[0m] [0m	Hdfstest$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/Hdfstest/target/scala-2.11/classes/Hdfstest$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	Hdfstest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/Hdfstest/target/scala-2.11/classes/Hdfstest$$anonfun$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

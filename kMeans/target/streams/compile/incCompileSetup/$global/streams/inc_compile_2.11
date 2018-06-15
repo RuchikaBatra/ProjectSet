@@ -1,0 +1,147 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/cloudera/workspace/kMeans/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans$$anonfun$main$1.class
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans$.class
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans.class
+binary dependencies:
+5 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.1.jar
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> kmeans
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> kmeans$
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> kmeans$$anonfun$main$1
+used names:
+56 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> <init>
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> <repeated>
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Any
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> AnyRef
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Array
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> ArrayOps
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Builder
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> DataFrame
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> DataFrameReader
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Dataset
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Double
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Function1
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Int
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> KMeans
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> KMeansModel
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Long
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Nothing
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Object
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Predef
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> SparkSession
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> String
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> StringContext
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> T
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> U
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Unit
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> Vector
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> WSSSE
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> _$2
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> _$3
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> apache
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> appName
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> builder
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> clusterCenters
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> clustering
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> computeCost
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> dataset
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> fit
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> foreach
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> format
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> getOrCreate
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> kmeans
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> load
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> ml
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> model
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> org
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> package
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> println
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> read
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> refArrayOps
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> s
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> scala
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> setK
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> setSeed
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> spark
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> sql
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> stop
+product stamps:
+3 items
+/home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans$$anonfun$main$1.class -> lastModified(1503053285000)
+/home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans$.class -> lastModified(1503053285000)
+/home/cloudera/workspace/kMeans/target/scala-2.11/classes/kmeans.class -> lastModified(1503053284000)
+source stamps:
+1 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> hash(7d38a3a3386e9d18cf69d0b04b2fca885b287469)
+binary stamps:
+5 items
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.1.jar -> lastModified(1493167189000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar -> lastModified(1493167914000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> lastModified(1493167860000)
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> lastModified(1409687212000)
+class names:
+5 items
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.1.jar -> org.apache.spark.ml.linalg.Vector
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar -> org.apache.spark.ml.clustering.KMeansModel
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> org.apache.spark.sql.Dataset
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Int
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhweZ65rAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw/92qSnQABm5vdGlmeXNxAH4ADPN2+GZ0AAR3YWl0c3EAfgAMLoohdHQADSRhc0luc3RhbmNlT2ZzcQB+AAyPKe9udAAGZXF1YWxzc3EAfgAMJGF5knQADGFzSW5zdGFuY2VPZnNxAH4ADIubxsZ0AAxzeW5jaHJvbml6ZWRzcQB+AAyRl20HdAANJGlzSW5zdGFuY2VPZnNxAH4ADDevSK50AARtYWluc3EAfgAMHDWLMXQACW5vdGlmeUFsbHNxAH4ADA/2sTR0AAxpc0luc3RhbmNlT2ZzcQB+AAzQgkN2dAACPT1zcQB+AAwJcznIdAAFY2xvbmVzcQB+AAzm55BKdAAIdG9TdHJpbmdzcQB+AAydZhYPdAACIT1zcQB+AAwnRjVNdAAIZ2V0Q2xhc3NzcQB+AAyFiwGldAACbmVzcQB+AAyfhtoOdAACZXFzcQB+AAwXsFOndAACIyNzcQB+AAwN6PLtdAAIZmluYWxpemVzcQB+AAwpa7mAdAAGa21lYW5zc3EAfgAMo0cDYXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA1dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AGxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AFxzcQB+AGt0AAVBcnJheXEAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGt0AAZTdHJpbmdzcQB+AG9zcQB+AHJ1cQB+AHUAAAADc3EAfgB3dAAEamF2YXNxAH4Ad3QABGxhbmdxAH4AfHNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+AJAAAAACc3EAfgBrdAAGT2JqZWN0cQB+AJRzcQB+AGt0AANBbnlxAH4AcXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFd9PSoFnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvaG9tZS9jbG91ZGVyYS93b3Jrc3BhY2Uva01lYW5zL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR9OKOjOG6dGM9p0LBLL8qIWyh0aQ==
+external apis:
+0 items
+source infos:
+1 items
+/home/cloudera/workspace/kMeans/src/kmeans.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXfTVWKd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9rTWVhbnMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXfT0qBZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9rTWVhbnMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

@@ -1,0 +1,68 @@
+import org.apache.spark._
+import org.apache.spark.SparkConf
+import org.apache.spark.streaming.StreamingContext
+import org.apache.spark.streaming.Seconds
+import org.apache.spark.streaming.kafka.KafkaUtils
+import org.apache.spark.storage.StorageLevel._
+import org.json4s._
+//import com.mongodb.spark.sql._
+
+
+
+
+//import com.mongodb.spark.sql._
+
+import kafka.producer.{KeyedMessage, Producer}
+import kafka.serializer.StringDecoder
+
+import scala.util.parsing.json._
+object KafkaCountExample {  
+  def main( args:Array[String] ){
+    println("============")
+    val conf = new SparkConf().setMaster("local[2]").setAppName("KafkaReceiver")
+    val ssc = new StreamingContext(conf, Seconds(10))
+//val sc = new SparkContext(conf)
+
+val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+    val kafkaParams = Map[String, String]("metadata.broker.list" -> "localhost:9092")
+
+ val stream = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](
+                  ssc, kafkaParams, Set("meetup"))
+
+stream.foreachRDD(
+  rdd => {
+     val dataFrame = sqlContext.read.json(rdd.map(_._2))
+       //MongoSpark.save(dataFrame.write.option("uri", "mongodb://hostname:27017/database.collection").mode("overwrite"))
+     //converts json to DF
+     //do your operations on this DF. 
+     dataFrame.show()
+        })
+        
+        
+ 
+
+//val kvs = KafkaUtils.createStream(ssc,"localhost:2181", "spark-streaming-consumer", Map("meetup"-> 1))
+//val lines = kvs.map(_._2)
+//lines.print()
+
+
+
+//ssc.start()
+  //  val kafkaStream = KafkaUtils.createStream(ssc,"localhost:2181","spark-streaming-consumer-group", Map("meetup" -> 5))
+//need to change the topic name and the port number accordingly
+     //ssc - StreamingContext object
+    //zkQuorum - Zookeeper quorum (hostname:port,hostname:port,..)
+    //groupId - The group id for this consumer
+    //topics - Map of (topic_name -> numPartitions) to consume. Each partition is consumed in its own thread
+   // val words = kafkaStream.flatMap(x =>x._2.split(" "))
+    // words.print()
+    //val wordCounts = words.map(x => (x, 1)).reduceByKey(_ + _)
+ 
+   // kafkaStream.print()  //prints the stream of data received
+    //wordCounts.print()   //prints the wordcount result of the stream
+   // println("wordcount=====")
+    ssc.start()
+    ssc.awaitTermination()
+  }
+  
+}

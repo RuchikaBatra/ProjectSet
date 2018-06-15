@@ -1,0 +1,116 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
+
+public class app {
+    public static void main(String[] args)throws Exception{
+
+      String verticesFile = "vertices.txt";
+      String edgesFile = "edges.txt";
+
+        List<String> individuals = getIndividuals();
+      List<String> orgs = getOrgs();
+
+      String directory = "/tmp/";
+
+        File vFile = new File(directory+verticesFile);
+        File eFile = new File(directory+edgesFile);
+
+        createVerticesDataSet(individuals, orgs, vFile);
+        createEdgesDataSet(individuals, orgs, eFile);
+
+
+
+
+    }
+    private static void createEdgesDataSet(List<String> individuals, List<String> orgs, File vFile)
+            throws IOException {
+    	System.out.println("in edges");
+        createNew(vFile);
+        FileWriter vFw = new FileWriter(vFile);
+
+        String newLine = System.getProperty( "line.separator" );
+
+        int iLen = individuals.size();
+        int oLen = orgs.size();
+
+        for(int i=0;i<iLen;i++){
+            int r1 = ThreadLocalRandom.current().nextInt(0, iLen);
+            int r2 = ThreadLocalRandom.current().nextInt(0, oLen );
+            System.out.println(r1+","+r2);
+            vFw.write(individuals.get(r1)+","+orgs.get(r2)+","+"Follow");
+            vFw.write(newLine);
+
+        }
+
+        for(int i=0;i<oLen;i++){
+            int r1 = ThreadLocalRandom.current().nextInt(0, iLen);
+            int r2 = ThreadLocalRandom.current().nextInt(0, oLen );
+            System.out.println(r1+","+r2);
+            vFw.write(individuals.get(r1)+","+orgs.get(r2)+","+"Apply");
+            vFw.write(newLine);
+
+        }
+
+        vFw.close();
+    }
+
+    private static void createVerticesDataSet(List<String> individuals, List<String> orgs, File vFile)
+            throws IOException {
+        createNew(vFile);
+        FileWriter vFw = new FileWriter(vFile);
+
+        String newLine = System.getProperty( "line.separator" );
+        for(String v : individuals){
+            vFw.write(v+","+"Individual");
+            vFw.write(newLine);
+        }
+        for(String v :orgs ){
+            vFw.write(v+","+"Organization");
+            vFw.write(newLine);
+        }
+        vFw.close();
+    }
+
+    private static void createNew(File vFile) throws IOException {
+        if(!vFile.exists()){
+            vFile.createNewFile();
+        }else{
+            vFile.delete();
+            vFile.createNewFile();
+        }
+    }
+
+    static List<String> getIndividuals(){
+        String[] v ={
+                "Amit",
+                "Ajay",
+                "Nihal",
+                "Ankit",
+                "Shahid",
+                "Akshay",
+                "Kapil",
+                "Sunil",
+                "Raghu",
+                "Prakash",
+                "Milton",
+                "Khalid",
+                "Yashu",
+
+                    };
+        return Arrays.asList(v);
+    }
+    static List<String> getOrgs(){
+        String[] v ={"Oracle",
+                "Microsoft",
+                "Amazon",
+                "Flipkart",
+                "Ebay",
+                "Juniper",   };
+        return Arrays.asList(v);
+    }
+
+}

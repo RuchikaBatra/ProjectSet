@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NetworkedCount.scala&apos; to &apos;Structuredstreaming/src/(default package)&apos;&#x0A;- Original project: &apos;SparkStreaming&apos;&#x0A;- Destination element: &apos;Structuredstreaming/src/(default package)&apos;&#x0A;- Original element: &apos;NetworkedCount.scala&apos;" description="Copy file" destination="=Structuredstreaming/src&lt;" element1="src/NetworkedCount.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1510567489311" units="0" version="1.0"/>
+</session>

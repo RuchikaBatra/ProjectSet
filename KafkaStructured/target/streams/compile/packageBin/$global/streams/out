@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/cloudera/workspace/KafkaStructured/target/scala-2.11/kafkastructured_2.11-1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	SparkConsumer$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/KafkaStructured/target/scala-2.11/classes/SparkConsumer$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	SparkConsumer$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/KafkaStructured/target/scala-2.11/classes/SparkConsumer$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	SparkConsumer$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/KafkaStructured/target/scala-2.11/classes/SparkConsumer$.class[0m
+[0m[[0mdebug[0m] [0m	SparkConsumer.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/KafkaStructured/target/scala-2.11/classes/SparkConsumer.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

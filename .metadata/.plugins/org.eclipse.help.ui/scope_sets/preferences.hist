@@ -1,0 +1,4 @@
+#Mon Jul 10 22:41:18 PDT 2017
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=preferences

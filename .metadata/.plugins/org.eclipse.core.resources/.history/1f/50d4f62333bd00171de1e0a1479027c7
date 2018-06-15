@@ -1,0 +1,10 @@
+
+class MyClass{
+  def test():Unit={
+    println("testing..")
+  }
+}
+object TestMyClass {
+  var m = new MyClass()
+  m.test()
+}

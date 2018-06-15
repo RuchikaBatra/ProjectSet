@@ -1,0 +1,17 @@
+
+class MyClass(val name:String,val age:Int){
+  
+  def this(name:String){
+    this(name,100)
+  }
+  def test():Unit={
+    println(name+" "+age)
+  }
+}
+object TestMyClass {
+  def main(args:Array[String]){   
+  var m = new MyClass("Test",10)
+  val m1 = new MyClass("Test1")
+  println(m.age)
+  }
+}

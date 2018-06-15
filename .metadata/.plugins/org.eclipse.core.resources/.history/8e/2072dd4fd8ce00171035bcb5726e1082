@@ -1,0 +1,27 @@
+
+
+import org.apache.spark.mllib.linalg.{Vector, Vectors}
+
+object VectorExample {
+
+  def main(args: Array[String]) {
+
+    // column vector with 5 columns
+    val columnVector = Vectors.dense(Array[5])
+    println(columnVector)
+    //row vector
+    val rowVector = columnVector.t
+    println(rowVector)
+    //from array
+    val vectorFromArray = new DenseVector(Array(10.0,20.0))
+    println(vectorFromArray)
+
+    //sparse Vector
+    val sparseVector = new SparseVector[Double](Array(1,3,5), Array(10.0,4.0,2.0), 5)
+    println(sparseVector)
+
+//Sparse vectors are when you have a lot of values in the vector as zero. 
+    //While a dense vector is when most of the values in the vector are non zero.
+  }
+
+}

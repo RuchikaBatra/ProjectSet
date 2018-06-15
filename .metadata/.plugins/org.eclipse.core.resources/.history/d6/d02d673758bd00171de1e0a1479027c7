@@ -1,0 +1,11 @@
+
+
+class HelloWorld {
+  println("hello")
+}
+object Main{
+  def main(args:Array[String])
+  {
+    HelloWorld = new HelloWorld()
+  }
+}

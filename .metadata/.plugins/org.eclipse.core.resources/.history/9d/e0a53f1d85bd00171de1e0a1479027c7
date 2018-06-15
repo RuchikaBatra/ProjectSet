@@ -1,0 +1,14 @@
+class MyClass(val name:String,val age:Int){//primary Constructor
+  def this(name:String)
+  {
+    this(name,100)
+  }
+}
+
+object TestMyClass{
+  def main(args:Array[String]):Unit={
+    val m = new MyClass("Test",18)
+    m.test()
+   
+  }
+}

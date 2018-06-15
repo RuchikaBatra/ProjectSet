@@ -1,0 +1,12 @@
+
+class MyClass(private val name:String,val age:Int){
+  def test():Unit={
+    println(name+" "+age)
+  }
+}
+object TestMyClass {
+  def main(args:Array[String]){   
+  var m = new MyClass("Test",10)
+  println(m.name)
+  }
+}

@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging /home/cloudera/workspace/CrimeCategory/target/scala-2.11/crimecategory_2.11-1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	DataReader.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/DataReader.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	CrimeCategorization.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/CrimeCategory/target/scala-2.11/classes/CrimeCategorization.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

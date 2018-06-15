@@ -1,0 +1,12 @@
+
+
+case class employee(empid:Int,empName:String,empAdd:String)
+object Test1 {
+  def main(args:Array[String]){
+    val m1 = employee(1,"ABC","address1")
+    val m2 = employee(2,"DEF","adrress 2")
+    println(m1==m2)
+    val m3=m1.copy()
+    println(m1==m3)
+  }
+}

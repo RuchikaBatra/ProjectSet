@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/cloudera/workspace/HelloWorld/target/scala-2.11/helloworld_2.11-1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	HdfsTest$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/HelloWorld/target/scala-2.11/classes/HdfsTest$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	HdfsTest$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/HelloWorld/target/scala-2.11/classes/HdfsTest$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	HdfsTest.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/HelloWorld/target/scala-2.11/classes/HdfsTest.class[0m
+[0m[[0mdebug[0m] [0m	HdfsTest$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/HelloWorld/target/scala-2.11/classes/HdfsTest$.class[0m
+[0m[[0mdebug[0m] [0m	HdfsTest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/HelloWorld/target/scala-2.11/classes/HdfsTest$$anonfun$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

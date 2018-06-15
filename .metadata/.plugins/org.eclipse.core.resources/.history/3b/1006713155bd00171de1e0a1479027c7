@@ -1,0 +1,18 @@
+
+class MyNewClass{
+  def test():Unit={
+    MyNewClass.printmsg()
+    
+  }
+}
+object MyNewClass {
+   def  printmsg():Unit={
+    println("")
+  }
+}
+object Main{
+  def main(args:Array[String]):Unit={
+    val m = new MyNewClass()
+    m.test()
+  }
+}

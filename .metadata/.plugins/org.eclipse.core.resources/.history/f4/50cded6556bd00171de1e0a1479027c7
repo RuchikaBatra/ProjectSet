@@ -1,0 +1,15 @@
+class Test{
+  Test.instanceCnt+=1
+}
+object Test{
+  var instanceCnt:Int = 0
+  def printInstanceCnt():Unit={
+    println("instancecount"+ instanceCnt)
+  }
+}
+object Main{
+  def main(args:Array[String]):Unit={
+    println("in main")
+    val t= new Test()
+  }
+}

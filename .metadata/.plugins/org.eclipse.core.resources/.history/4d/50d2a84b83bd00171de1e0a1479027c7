@@ -1,0 +1,12 @@
+class MyClass{
+  def test():Unit={
+    println("in testing")
+  }
+}
+
+object TestMyClass{
+  def main(args:Array[String]):Unit={
+    val m = new MyClass()
+    m.test()
+  }
+}

@@ -1,0 +1,33 @@
+abstract class MyAbstractFile{
+  def open(fileName:String):Unit
+  def save(fileName:String):Unit
+}
+
+class MyFile extends MyAbstractFile{
+  override def open(filename:String):Unit={
+    println("Myfile.open called")
+    
+  }
+override def save(filename:String):Unit={
+    println("Myfile.save called")
+    
+  }
+}
+class MyCompressedFile extends MyFile{
+   override def save(fileName:String)={
+    println("Mycompressdedfile save method called")
+    println(">>>compression logic")
+    println(">>calling immediate base save method")
+    super.save(fileName)
+  }
+}
+object TestInheritanceDriver {
+  def main(args:Array[String])
+  {
+    var f:MyAbstractFile = new MyFile()
+    println("Testing myfile")
+    f.open(null)
+    f.save(null)
+  }
+  
+}

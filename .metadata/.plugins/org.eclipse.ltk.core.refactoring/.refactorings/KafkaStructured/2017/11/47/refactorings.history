@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;build.sbt&apos; to &apos;MachineLearning&apos;&#x0A;- Original project: &apos;KafkaStructured&apos;&#x0A;- Destination element: &apos;MachineLearning&apos;&#x0A;- Original element: &apos;build.sbt&apos;" description="Copy file" destination="=MachineLearning" element1="build.sbt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1511245492222" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,721 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+23 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/KafkaWordCount$.class
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/KafkaWordCount.class
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$$typecreator1$1.class
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$$typecreator2$1.class
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$.class
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person.class
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$$anonfun$1.class
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$.class
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$delayedInit$body.class
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer.class
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$$typecreator1$1.class
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$.class
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$delayedInit$body.class
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer.class
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount$$anonfun$1.class
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount$.class
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$$anonfun$1.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$$typecreator2$1.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$Stock$.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$Stock.class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample.class
+binary dependencies:
+29 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-8_2.11/jars/spark-streaming-kafka-0-8_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.8.2.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+23 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> KafkaWordCount
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> KafkaWordCount$
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Person
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Person$
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Person$$typecreator1$1
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Person$$typecreator2$1
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Producer
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Producer$
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Producer$$anonfun$1
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Producer$delayedInit$body
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkConsumer
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkConsumer$
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkConsumer$$typecreator1$1
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkConsumer$delayedInit$body
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> StructuredNetworkedWordCount
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> StructuredNetworkedWordCount$
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> StructuredNetworkedWordCount$$anonfun$1
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample$
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample$$anonfun$1
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample$$typecreator2$1
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample$Stock
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample$Stock$
+used names:
+501 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> ->
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> <repeated>
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> A
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> AnyRef
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Array
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> ArrowAssoc
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> B
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Duration
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Int
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> KafkaUtils
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> KafkaWordCount
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Long
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Map
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> ReceiverInputDStream
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Seconds
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> SparkConf
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> StorageLevel
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> StreamingContext
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Tuple2
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> Unit
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> apply
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> awaitTermination
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> conf
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> createStream
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> kafka
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> kafkaStream
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> print
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> println
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> setAppName
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> setMaster
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> spark
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> ssc
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> start
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> streaming
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> $m
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> $m$untyped
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> $typecreator1
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> $typecreator2
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> $u
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> &&
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ==
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ?0
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> A
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> AnyRef
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Boolean
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Builder
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Class
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ClassSymbol
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> DataFrame
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> DataStreamReader
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> DataStreamWriter
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> DataType
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Dataset
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Encoder
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> IndexOutOfBoundsException
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Int
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Iterator
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> JavaUniverse
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Long
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Mirror
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> None
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Option
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Person
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Product
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ScalaReflection
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ScalaRunTime
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Schema
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Serializable
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Singleton
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Some
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> SparkSession
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> StreamingQuery
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> StructType
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T0
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T1
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T2
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T3
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> T4
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Tuple4
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Type
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> TypeCreator
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> TypeSymbol
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> TypeTag
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> U
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> Universe
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> _hashCode
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> _toString
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> age
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> appName
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> apply
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> as
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> asInstanceOf
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> asType
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> builder
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> caseSchema
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> catalyst
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> city
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> country
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> csv
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> dataType
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> eq
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> format
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> functions
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> getClass
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> getClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> getOrCreate
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> implicits
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> isInstanceOf
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> materializeTypeTag
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> name
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> newProductEncoder
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> option
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> outputMode
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> package
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> peopleStream
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> readStream
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> reflect
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> runtime
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> runtimeMirror
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> schema
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> schemaFor
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> spark
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> sql
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> start
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> staticClass
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> toString
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> toTypeConstructor
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> typedProductIterator
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> types
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> universe
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> writeStream
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> ||
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> +
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> <repeated>
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> App
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Exception
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Function1
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Future
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Inclusive
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Int
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> KafkaProducer
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Producer
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> ProducerRecord
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Properties
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Range
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> RecordMetadata
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> RichInt
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> StringContext
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> U
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> Unit
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> clients
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> close
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> ex
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> foreach
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> i
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> intWrapper
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> java
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> kafka
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> package
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> printStackTrace
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> println
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> producer
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> props
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> put
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> s
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> send
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> to
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> toString
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> topic
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> util
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> $m
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> $m$untyped
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> $typecreator1
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> $u
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> <repeated>
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ?0
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> A
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> App
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Builder
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Class
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ClassSymbol
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> DataFrame
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> DataStreamReader
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> DataStreamWriter
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Dataset
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Encoder
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Internal
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> JavaUniverse
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> List
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Mirror
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ModuleSymbol
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Nil
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Product
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ReificationSupportApi
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SingleType
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Singleton
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkConsumer
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkContext
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> SparkSession
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> StreamingQuery
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Symbol
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> T
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> T0
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ThisType
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Tuple2
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Type
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> TypeCreator
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> TypeRef
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> TypeSymbol
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> TypeTag
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> U
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Unit
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> Universe
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> appName
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> apply
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> as
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> asInstanceOf
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> asModule
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> awaitTermination
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> builder
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> collection
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> config
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> data
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> ds1
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> format
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> getClass
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> getClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> getOrCreate
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> immutable
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> implicits
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> internal
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> load
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> materializeTypeTag
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> moduleClass
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> newProductEncoder
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> option
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> outputMode
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> package
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> printSchema
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> query
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> readStream
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> reflect
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> reificationSupport
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> runtime
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> runtimeMirror
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> selectExpr
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> selectType
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> setLogLevel
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> spark
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> sparkContext
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> sql
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> start
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> staticClass
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> staticModule
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> staticPackage
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> streaming
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> universe
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> writeStream
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> <repeated>
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> AnyRef
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Array
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> ArrayOps
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Builder
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> DataFrame
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> DataStreamReader
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> DataStreamWriter
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Dataset
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Encoder
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Function1
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Long
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> RelationalGroupedDataset
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Row
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> SparkSession
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> StreamingQuery
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> StructuredNetworkedWordCount
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> T
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> TraversableOnce
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> U
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> Unit
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> appName
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> as
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> awaitTermination
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> builder
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> count
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> flatMap
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> format
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> functions
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> getOrCreate
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> groupBy
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> implicits
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> lines
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> load
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> newStringEncoder
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> option
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> outputMode
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> package
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> query
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> readStream
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> refArrayOps
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> spark
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> split
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> sql
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> start
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> wordCounts
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> words
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> writeStream
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> $
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> $m
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> $m$untyped
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> $typecreator2
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> $u
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> &&
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> <init>
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> <repeated>
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ==
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ?0
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> A
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> AbstractFunction3
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Any
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> AnyRef
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Array
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Boolean
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Builder
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Class
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Column
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ColumnName
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> DataFrame
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> DataStreamReader
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> DataStreamWriter
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Dataset
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Double
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Encoder
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Function1
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> IndexOutOfBoundsException
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Int
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Internal
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Iterator
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> JavaUniverse
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Long
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Mirror
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ModuleSymbol
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> None
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Nothing
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Object
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> OutputMode
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Predef
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Product
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ReificationSupportApi
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> RelationalGroupedDataset
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Row
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ScalaRunTime
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Serializable
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Singleton
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Some
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> SparkContext
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> SparkSession
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Statics
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Stock
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> StreamingQuery
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> String
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> StringContext
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> StringOps
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> StringToColumn
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Symbol
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> T
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> T0
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> T1
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> T2
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> T3
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Timestamp
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Tuple3
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Type
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> TypeCreator
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> TypeSymbol
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> TypeTag
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> U
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Unit
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Universe
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> Update
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> WaterMarkExample
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> _toString
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> anyHash
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> apache
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> appName
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> apply
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> as
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> asInstanceOf
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> asModule
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> asType
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> augmentString
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> awaitTermination
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> builder
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> columns
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> doubleHash
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> eq
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> finalizeHash
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> format
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> functions
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> getClass
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> getClassLoader
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> getOrCreate
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> groupBy
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> implicits
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> internal
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> isInstanceOf
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> java
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> load
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> map
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> master
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> materializeTypeTag
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> mix
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> moduleClass
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> newProductEncoder
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> newStringEncoder
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> option
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> org
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> outputMode
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> package
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> query
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> readStream
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> reflect
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> reificationSupport
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> runtime
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> runtimeMirror
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> scala
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> selectType
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> setLogLevel
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> socketStreamDs
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> spark
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> sparkContext
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> sparkSession
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> split
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> sql
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> start
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> staticModule
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> stockDs
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> streaming
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> sum
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> symbol
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> time
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> toDouble
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> toLong
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> toString
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> toTypeConstructor
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> typedProductIterator
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> universe
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> value
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> window
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> windowedCount
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> withWatermark
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> writeStream
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> ||
+product stamps:
+23 items
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/KafkaWordCount$.class -> lastModified(1511095696000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/KafkaWordCount.class -> lastModified(1511095695000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$$typecreator1$1.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$$typecreator2$1.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person$.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Person.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$$anonfun$1.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer$delayedInit$body.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/Producer.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$$typecreator1$1.class -> lastModified(1510892078000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$.class -> lastModified(1510892077000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer$delayedInit$body.class -> lastModified(1510892078000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/SparkConsumer.class -> lastModified(1510892065000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount$$anonfun$1.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount$.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/StructuredNetworkedWordCount.class -> lastModified(1510801185000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$$anonfun$1.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$$typecreator2$1.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$Stock$.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample$Stock.class -> lastModified(1511093799000)
+/home/cloudera/workspace/Structuredstreaming/target/scala-2.11/classes/WaterMarkExample.class -> lastModified(1511093799000)
+source stamps:
+6 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> hash(38cd041ebb007cde5501934123e15d290302f012)
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> hash(cd8150f8705b6f2a4230a207c0ebf67d3944f40d)
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> hash(4f3664d88b9918856c3db5b9615b39c1e3208559)
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> hash(c3eb705512911a7588ae15303bafa6413a0d8796)
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> hash(dcf8743575ad6db67b2784df672c40404615b7e3)
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> hash(f614251996af3292e86c0cdc5870d3c36dd3b66a)
+binary stamps:
+9 items
+/home/cloudera/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.8.2.1.jar -> lastModified(1424990549000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar -> lastModified(1493167686000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar -> lastModified(1493167440000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> lastModified(1493167860000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-8_2.11/jars/spark-streaming-kafka-0-8_2.11-2.1.1.jar -> lastModified(1493167255000)
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.1.jar -> lastModified(1493167478000)
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> lastModified(1409687212000)
+class names:
+9 items
+/home/cloudera/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.8.2.1.jar -> org.apache.kafka.clients.producer.RecordMetadata
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar -> org.apache.spark.sql.streaming.OutputMode
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar -> org.apache.spark.SparkConf
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> org.apache.spark.sql.streaming.StreamingQuery
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-8_2.11/jars/spark-streaming-kafka-0-8_2.11-2.1.1.jar -> org.apache.spark.streaming.kafka.KafkaUtils$
+/home/cloudera/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.1.jar -> org.apache.spark.streaming.dstream.DStream
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.collection.immutable.Map
+/home/cloudera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+6 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGFm2ewAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwjGYNdHQABm5vdGlmeXNxAH4ADN/IYQN0AAR3YWl0c3EAfgAMc+JZRnQADSRhc0luc3RhbmNlT2ZzcQB+AAzIA5J/dAAGZXF1YWxzc3EAfgAMw6/3DXQADkthZmthV29yZENvdW50c3EAfgAMaySSp3QADGFzSW5zdGFuY2VPZnNxAH4ADFNQvI50AAxzeW5jaHJvbml6ZWRzcQB+AAwt/Y/vdAANJGlzSW5zdGFuY2VPZnNxAH4ADCiTNFN0AARtYWluc3EAfgAMaFFsBHQACW5vdGlmeUFsbHNxAH4ADOFEn6F0AAxpc0luc3RhbmNlT2ZzcQB+AAzB0ON0dAACPT1zcQB+AAzMA9qTdAAFY2xvbmVzcQB+AAyevFO8dAAIdG9TdHJpbmdzcQB+AAzl5pAsdAACIT1zcQB+AAx8ermJdAAIZ2V0Q2xhc3NzcQB+AAwRM/7edAACbmVzcQB+AAwr4UoDdAACZXFzcQB+AAyBJKM/dAACIyNzcQB+AAxKXCOGdAAIZmluYWxpemVzcQB+AAzq3MQ5dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ABd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBdc3EAfgBYdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAfdXEAfgBQAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AFx0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBcc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB4dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AZXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AU3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AbFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AXHNxAH4Aa3QABUFycmF5cQB+AHF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Aa3QABlN0cmluZ3NxAH4Ab3NxAH4AcnVxAH4AdQAAAANzcQB+AHd0AARqYXZhc3EAfgB3dAAEbGFuZ3EAfgB8c3EAfgBYdXEAfgA8AAAAAHNxAH4AWHVxAH4AkAAAAAJzcQB+AGt0AAZPYmplY3RxAH4AlHNxAH4Aa3QAA0FueXEAfgBxdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV/UUiYCdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ4zQQeuwB83lUBk0Ej4V0pAwLwEg==
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwjXjMaAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAApc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hweSz47nQABm5vdGlmeXNxAH4ADKMlCmN0AAd1bmFwcGx5c3EAfgAM64hgQnQABGNpdHlzcQB+AAwzafyudAAEbmFtZXNxAH4ADIurrBV0AAR3YWl0c3EAfgAMX1yqBHQADmNvcHkkZGVmYXVsdCQyc3EAfgAMdXUpvXQADSRhc0luc3RhbmNlT2ZzcQB+AAwidLmddAAMcHJvZHVjdEFyaXR5c3EAfgAMmN1+mHQABmVxdWFsc3NxAH4ADMa28+B0AAxhc0luc3RhbmNlT2ZzcQB+AAx+2klNdAAMc3luY2hyb25pemVkc3EAfgAMKey00nQADSRpc0luc3RhbmNlT2ZzcQB+AAwjxxCWdAAMcGVvcGxlU3RyZWFtc3EAfgAMlLA633QACGNhbkVxdWFsc3EAfgAMCKgw4nQAB2NvdW50cnlzcQB+AAy7IiPLdAAOY29weSRkZWZhdWx0JDRzcQB+AAxhQxUDdAANcHJvZHVjdFByZWZpeHNxAH4ADADHqwZ0AANhZ2VzcQB+AAzV82bhdAAJbm90aWZ5QWxsc3EAfgAM6DkDOXQADGlzSW5zdGFuY2VPZnNxAH4ADJwT15d0AAY8aW5pdD5zcQB+AAwfICEWdAAKY2FzZVNjaGVtYXNxAH4ADHmoa3Z0AAZQZXJzb25zcQB+AAym7E9vdAAFYXBwbHlzcQB+AAy28cnIdAAFc3BhcmtzcQB+AAxSUPJ8dAACPT1zcQB+AAwWfW39dAAFY2xvbmVzcQB+AAzfeDWDdAAGJGluaXQkc3EAfgAMoAVwknQADmNvcHkkZGVmYXVsdCQzc3EAfgAMY8KRfnQABGNvcHlzcQB+AAxBkdCZdAAIdG9TdHJpbmdzcQB+AAyrrWUydAACIT1zcQB+AAyT9JjldAAIZ2V0Q2xhc3NzcQB+AAySos1jdAAOY29weSRkZWZhdWx0JDFzcQB+AAz8b5wMdAACbmVzcQB+AAyrFIMddAACZXFzcQB+AAwCw0W8dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMkY1y/nQAAiMjc3EAfgAMjOLRhXQACGZpbmFsaXplc3EAfgAMqvgcHnQADnByb2R1Y3RFbGVtZW50c3EAfgAM7fXMdHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AaXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA7dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AaUwACWluaGVyaXRlZHEAfgBpTAAHcGFyZW50c3EAfgBpeHEAfgCFc3EAfgCAdXEAfgBkAAAAAHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIR0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ5zcQB+AJFxAH4AlHNxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ10AARqYXZhc3EAfgCddAACaW9xAH4AonNxAH4AkXQAB1Byb2R1Y3RxAH4Al3NxAH4AkXQABkVxdWFsc3EAfgCXc3EAfgCRdAAGT2JqZWN0c3EAfgCVc3EAfgCYdXEAfgCbAAAAA3NxAH4AnXEAfgCoc3EAfgCddAAEbGFuZ3EAfgCic3EAfgCRdAADQW55cQB+AJdzcQB+AGZxAH4Ac3VxAH4AdAAAAABzcQB+AHYAdAAGUGVyc29udXEAfgB4AAAAAH5xAH4AenQABk1vZHVsZXVxAH4AfgAAAABzcQB+AIBxAH4AhnNxAH4AgHNxAH4AiHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cQB+AGQAAAAAc3EAfgCAdXEAfgCPAAAABHNxAH4AkXEAfgCUc3EAfgCVc3EAfgCYdXEAfgCbAAAAAnNxAH4AnXEAfgCgcQB+AKJzcQB+AJFxAH4AlHNxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ1xAH4AqHNxAH4AnXQAAmlvcQB+AKJzcQB+AJFxAH4AsHNxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ1xAH4AqHNxAH4AnXEAfgC2cQB+AKJzcQB+AJFxAH4AuHEAfgDLdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV/CxDmodXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTNgVD4cFtvKkIwogfA6/Z9OUT0DQ==
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw1X2oYQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwfm8T+XQABm5vdGlmeXNxAH4ADB9RfMB0AAR3YWl0c3EAfgAM/la+OHQADSRhc0luc3RhbmNlT2ZzcQB+AAzehMl9dAAIUHJvZHVjZXJzcQB+AAwwpr4xdAAGZXF1YWxzc3EAfgAMfbPC13QADGFzSW5zdGFuY2VPZnNxAH4ADGTzw610AA5leGVjdXRpb25TdGFydHNxAH4ADLfsFaV0AAxzeW5jaHJvbml6ZWRzcQB+AAxAo8fGdAANJGlzSW5zdGFuY2VPZnNxAH4ADATi0Cd0AARtYWluc3EAfgAM2xGQ33QACW5vdGlmeUFsbHNxAH4ADNNmCjB0AAxpc0luc3RhbmNlT2ZzcQB+AAz6bJXadAACPT1zcQB+AAxDQrUwdAAFY2xvbmVzcQB+AAyjfGrJdAAGJGluaXQkc3EAfgAM/LXg5HQACHRvU3RyaW5nc3EAfgAMfo3WCnQABGFyZ3NzcQB+AAyVXpaWdAACIT1zcQB+AAxgVQoXdAAFdG9waWNzcQB+AAzyC55JdAAIZ2V0Q2xhc3NzcQB+AAywORfJdAACbmVzcQB+AAzTQW4JdAACZXFzcQB+AAybn7HXdAALZGVsYXllZEluaXRzcQB+AAw6tz5DdAACIyNzcQB+AAy/vjXkdAAIZmluYWxpemVzcQB+AAwkiZZLdAAIcHJvZHVjZXJzcQB+AAyMTa1TdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ABV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmd0ABBzY2FsYS5kZXByZWNhdGVkc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBrc3EAfgBmdXEAfgBIAAAAAHNxAH4AZnVxAH4ASAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ATnEAfgBXdXEAfgBYAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4AdXhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBqdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI9zcQB+AFoAcQB+ACF1cQB+AFwAAAAAc3EAfgCCdAAEVW5pdHEAfgCIdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AdXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AX3QABVBsYWlucQB+AC9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AINbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGpzcQB+AIJ0AAVBcnJheXEAfgCIdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIJ0AAZTdHJpbmdzcQB+AIZzcQB+AIl1cQB+AIwAAAADc3EAfgCOdAAEamF2YXNxAH4AjnQABGxhbmdxAH4Ak3NxAH4AZnVxAH4AqgAAAARzcQB+AIJ0AANBcHBxAH4AiHNxAH4AgnQAC0RlbGF5ZWRJbml0cQB+AIhzcQB+AIJ0AAZPYmplY3RxAH4ArnNxAH4AgnQAA0FueXEAfgCIdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV/UNOVydXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRPNmTYi5kYhWw9tblhWznB4yCFWQ==
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwYTItagAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwgphpzXQABm5vdGlmeXNxAH4ADN5pZ/B0AAR3YWl0c3EAfgAMI4Y71nQADSRhc0luc3RhbmNlT2ZzcQB+AAw2YKFYdAAGZXF1YWxzc3EAfgAMYgYQp3QADGFzSW5zdGFuY2VPZnNxAH4ADNyV9yZ0AA5leGVjdXRpb25TdGFydHNxAH4ADAPo55B0AARkYXRhc3EAfgAM5od1T3QADHN5bmNocm9uaXplZHNxAH4ADH3loIJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMVbOmIXQABXF1ZXJ5c3EAfgAMwY76O3QABG1haW5zcQB+AAwAMijidAADZHMxc3EAfgAM9/WFOnQACW5vdGlmeUFsbHNxAH4ADPG/YVl0AAxpc0luc3RhbmNlT2ZzcQB+AAxnuNH+dAAFc3BhcmtzcQB+AAw3batpdAACPT1zcQB+AAzPTMBTdAAFY2xvbmVzcQB+AAwvTj26dAANU3BhcmtDb25zdW1lcnNxAH4ADJQ5C9V0AAYkaW5pdCRzcQB+AAxFXFaNdAAIdG9TdHJpbmdzcQB+AAxjGYmQdAAEYXJnc3NxAH4ADEhvbaR0AAIhPXNxAH4ADOC+8pB0AAhnZXRDbGFzc3NxAH4ADKwIZXt0AAJuZXNxAH4ADFyh65B0AAJlcXNxAH4ADD1yfnl0AAtkZWxheWVkSW5pdHNxAH4ADHRgoat0AAIjI3NxAH4ADJzeiFV0AAhmaW5hbGl6ZXNxAH4ADEzUsgZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AMXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AanNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBRTAAJaW5oZXJpdGVkcQB+AFFMAAdwYXJlbnRzcQB+AFF4cQB+AG9zcQB+AGp1cQB+AEwAAAAAc3EAfgBqdXEAfgBMAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBScQB+AFt1cQB+AFwAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgB5eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG50ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ak3NxAH4AXgBxAH4AI3VxAH4AYAAAAABzcQB+AIZ0AARVbml0cQB+AIx1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgB5eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBjdAAFUGxhaW5xAH4AN3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ah1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AbnNxAH4AhnQABUFycmF5cQB+AIx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AhnQABlN0cmluZ3NxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJ0AARqYXZhc3EAfgCSdAAEbGFuZ3EAfgCXc3EAfgBqdXEAfgCuAAAABHNxAH4AhnQAA0FwcHEAfgCMc3EAfgCGdAALRGVsYXllZEluaXRxAH4AjHNxAH4AhnQABk9iamVjdHEAfgCyc3EAfgCGdAADQW55cQB+AIx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8gtls51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGL2hvbWUvY2xvdWRlcmEvd29ya3NwYWNlL1N0cnVjdHVyZWRzdHJlYW1pbmcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMPrcFUSkRp1iK4VMDuvpkE6DYeW
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwgUmIzwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwi365N3QABm5vdGlmeXNxAH4ADNh6sF50ABxTdHJ1Y3R1cmVkTmV0d29ya2VkV29yZENvdW50c3EAfgAMzpglH3QABHdhaXRzcQB+AAzcGogFdAANJGFzSW5zdGFuY2VPZnNxAH4ADLa6nWR0AAZlcXVhbHNzcQB+AAzwj4S4dAAMYXNJbnN0YW5jZU9mc3EAfgAMq6gwR3QADHN5bmNocm9uaXplZHNxAH4ADOjyR/p0AA0kaXNJbnN0YW5jZU9mc3EAfgAMWUUciXQABG1haW5zcQB+AAxxejX/dAAJbm90aWZ5QWxsc3EAfgAMSV34CHQADGlzSW5zdGFuY2VPZnNxAH4ADEkCfUd0AAI9PXNxAH4ADL8SfCV0AAVjbG9uZXNxAH4ADHPmrJp0AAh0b1N0cmluZ3NxAH4ADO+JY3l0AAIhPXNxAH4ADG6SE+N0AAhnZXRDbGFzc3NxAH4ADAx61dh0AAJuZXNxAH4ADBd0ZAx0AAJlcXNxAH4ADGoKp9B0AAIjI3NxAH4ADEq3+tV0AAhmaW5hbGl6ZXNxAH4ADCYlUDV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AEXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF1zcQB+AFh1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AFxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHh1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBleHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBsWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBcc3EAfgBrdAAFQXJyYXlxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBrdAAGU3RyaW5nc3EAfgBvc3EAfgBydXEAfgB1AAAAA3NxAH4Ad3QABGphdmFzcQB+AHd0AARsYW5ncQB+AHxzcQB+AFh1cQB+ADwAAAAAc3EAfgBYdXEAfgCQAAAAAnNxAH4Aa3QABk9iamVjdHEAfgCUc3EAfgBrdAADQW55cQB+AHF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8LEOah1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGL2hvbWUvY2xvdWRlcmEvd29ya3NwYWNlL1N0cnVjdHVyZWRzdHJlYW1pbmcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNz4dDV1rW22eyeE32csQEBGFbfj
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwEhr7tgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwHa6dJHQABm5vdGlmeXNxAH4ADIffC5x0AAd1bmFwcGx5c3EAfgAMwm+bZnQAB2N1cnJpZWRzcQB+AAzUtjQhdAAEd2FpdHNxAH4ADOl/NtN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADA6GLoN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMPxDDEXQADHByb2R1Y3RBcml0eXNxAH4ADKdhdwN0AAZlcXVhbHNzcQB+AAxFfyX0dAAMYXNJbnN0YW5jZU9mc3EAfgAM1H19+nQADHN5bmNocm9uaXplZHNxAH4ADAtV8Ft0AA0kaXNJbnN0YW5jZU9mc3EAfgAMZgrIKHQABnR1cGxlZHNxAH4ADIwLsih0ABBXYXRlck1hcmtFeGFtcGxlc3EAfgAMxdjwVHQACGNhbkVxdWFsc3EAfgAMzzgYg3QABG1haW5zcQB+AAw6u/UNdAANcHJvZHVjdFByZWZpeHNxAH4ADLzabdx0AAlub3RpZnlBbGxzcQB+AAySAskudAAMaXNJbnN0YW5jZU9mc3EAfgAMTc7wHnQABnN5bWJvbHNxAH4ADBeH6Ah0AAY8aW5pdD5zcQB+AAxxkFoSdAAFYXBwbHlzcQB+AAy++LWKdAACPT1zcQB+AAy1g/nidAAFY2xvbmVzcQB+AAy+g+5tdAAGJGluaXQkc3EAfgAMqTyFtHQADmNvcHkkZGVmYXVsdCQzc3EAfgAMroWZCnQABGNvcHlzcQB+AAyhSJ1ddAAIdG9TdHJpbmdzcQB+AAwaJHuEdAACIT1zcQB+AAw8kn7PdAAEdGltZXNxAH4ADL7SikB0AAhnZXRDbGFzc3NxAH4ADHB+/GB0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADLLSfxR0AAJuZXNxAH4ADKQjiX50AAV2YWx1ZXNxAH4ADO5q1w50AAJlcXNxAH4ADL+xcPV0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzE4prPdAACIyNzcQB+AAyBy26MdAAIZmluYWxpemVzcQB+AAyTfEvEdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyTO7rwdAAIaGFzaENvZGVzcQB+AAzBeZ7kdAAFU3RvY2tzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBneHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AH5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AZ0wACWluaGVyaXRlZHEAfgBnTAAHcGFyZW50c3EAfgBneHEAfgCDc3EAfgB+dXEAfgBiAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBocQB+AHF1cQB+AHIAAAAAc3EAfgB0AHEAfgArdXEAfgB2AAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCCc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCedXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Ai3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AeXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AklsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AgnNxAH4AkXQABUFycmF5cQB+AJd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AkXQABlN0cmluZ3NxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ10AARqYXZhc3EAfgCddAAEbGFuZ3EAfgCic3EAfgB+dXEAfgBiAAAAAHNxAH4AfnVxAH4AtgAAAAJzcQB+AJF0AAZPYmplY3RxAH4AunNxAH4AkXQAA0FueXEAfgCXdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV/UNOVydXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT2FCUZlq8ykuhsDNxYcNPDbdO2ag==
+external apis:
+0 items
+source infos:
+6 items
+/home/cloudera/workspace/Structuredstreaming/src/KafkaWordCount.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/Structuredstreaming/src/Person.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/Structuredstreaming/src/Producer.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/Structuredstreaming/src/SparkConsumer.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/Structuredstreaming/src/StructucturedNetworkedWordCount.scala -> 
+AAAAAAAAAAA=
+/home/cloudera/workspace/Structuredstreaming/src/WatermarkExample.scala -> 
+AAAAAAAAAAA=
+compilations:
+14 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8LEOah1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8LIVpx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8MXuRV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8MtsIp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8Nm++91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8N9koJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8Qfv3V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8gtls51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8g1H9F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8g/4c91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8hDWlx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX8h2PsN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX9Q05XJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABX9RSJgJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2Nsb3VkZXJhL3dvcmtzcGFjZS9TdHJ1Y3R1cmVkc3RyZWFtaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

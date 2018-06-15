@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/networkwordcount_2.11-1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	NetworkedCount$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/classes/NetworkedCount$.class[0m
+[0m[[0mdebug[0m] [0m	NetworkedCount$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/classes/NetworkedCount$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	NetworkedCount$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/classes/NetworkedCount$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	NetworkedCount.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/classes/NetworkedCount.class[0m
+[0m[[0mdebug[0m] [0m	NetworkedCount$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/workspace/NetworkWordCount/target/scala-2.11/classes/NetworkedCount$$anonfun$2.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
